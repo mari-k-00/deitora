@@ -1,0 +1,191 @@
+/* モバイルファースト */
+
+/* 全体 */
+body {
+  color: black;
+  background-color: white;
+  margin: 0 auto;
+  line-height: 1;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 5%;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ヘッダー */
+header {
+  margin: 15px auto;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+
+header li {
+  font-weight: bold;
+  padding: 0 5px;
+  float: left;
+  text-align: center;
+}
+
+/* メインコンテンツ */
+/* メイン画像 */
+.main-vsual {
+  margin: 15px auto;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: left 30%;
+}
+
+main h1 {
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+.main-txt p {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 15px 5px;
+}
+
+.main-txt {
+  line-height: 1;
+  position: absolute;
+  top: 170px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+/* about-デイトラとは */
+.about {
+  margin-top: 60px;
+}
+
+.about h2 {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.about img {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.about p {
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 15px 8px;
+  line-height: 1;
+}
+
+/* nav-コース一覧 */
+.nav {
+  margin-top: 60px;
+}
+
+.nav h3 {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.nav img {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.nav p {
+  padding-top: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* form-お問い合わせ */
+form {
+  margin-top: 60px;
+}
+
+form h1 {
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+form p {
+  margin-bottom: 10px;
+  padding: 0 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.Form-Item-Input {
+  border: 1px solid gray;
+  border-radius: 30px;
+  height: 48px;
+  flex: 1;
+  width: 90%;
+  background: white;
+  font-size: 16px;
+}
+
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90%;
+  display: block;
+  letter-spacing: 0.05em;
+  background: orangered;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* footer-コピーライト */
+footer {
+  margin-top: 120px;
+}
+
+.border {
+  border: 0.5px solid lightgray;
+  margin-bottom: 10px;
+}
+
+footer small {
+  font-weight: bold;
+  font-size: 10px;
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
